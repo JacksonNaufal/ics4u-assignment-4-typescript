@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="bVoswQC8T6PlKmy4Bn8u" name="Page-1">
+        <mxGraphModel dx="1074" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="387" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="388" target="399">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="389" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="388">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="90" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="90"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="390" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="398">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="90" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="550" y="90"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="391" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="392" target="396">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" value="hourglass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="394" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="396">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="395" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="402">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="180" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="396" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="397" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="398" target="401">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="Get userInput" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="401" value="show the hourglass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="402" value="create sand, in order of an hourglass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
