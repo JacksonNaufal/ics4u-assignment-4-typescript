@@ -1,6 +1,6 @@
 /**
  * The program is the classic
- * what hourglass program
+ * hourglass program
  *
  * By:      Jackson Naufal
  * Version: 1.0
@@ -10,38 +10,44 @@
 import promptSync from 'prompt-sync'
 
 const prompt = promptSync()
+
 /**
  *
- * This is the towerOfHanoi function.
+ * This is the hourglass function.
  *
- * @param {number} userInput of disks
- * @param {number} mid the first peg
+ * @param {number} userInput of the sand
+ * @param {number} mid of the hourglass
  */
 function hourglass(userInput: number, mid: number): void {
-  // if the user inputs 1, there is only 1 step
-
+  // these are the variables
   let hrGlass = ''
   let counter1 = 0
   let counter2 = 0
+
+  // this is the loop for the blankspace
   for (counter1 = 0; counter1 < mid; counter1++) {
     hrGlass += ' '
   }
 
+  // this is where the * are placed
   for (counter2 = 0; counter2 < userInput; counter2++) {
     hrGlass += '* '
   }
   console.log(hrGlass)
+
+  // recurrsive formula.
   if (userInput > 1) {
     hourglass(userInput - 1, mid + 1)
   }
   console.log(hrGlass)
 }
 
-// Asks for the users input
-console.log('This is a tower of hanoi program')
+// What the program is
+console.log('This is a hourglass program!')
 
 // asks for the user input
-const userNum = Number(prompt('Enter how many disks (1 - inf) '))
+const userNum = Number(prompt('Enter sand amount: '))
+console.log('')
 
 // Checks inputs validity
 if (isNaN(userNum)) {
