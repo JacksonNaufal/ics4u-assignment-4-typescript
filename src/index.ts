@@ -21,16 +21,14 @@ const prompt = promptSync()
 function hourglass(userInput: number, mid: number): void {
   // these are the variables
   let hrGlass = ''
-  let counter1 = 0
-  let counter2 = 0
 
   // this is the loop for the blankspace
-  for (counter1 = 0; counter1 < mid; counter1++) {
+  for (let counter1 = 0; counter1 < mid; counter1++) {
     hrGlass += ' '
   }
 
   // this is where the * are placed
-  for (counter2 = 0; counter2 < userInput; counter2++) {
+  for (let counter2 = 0; counter2 < userInput; counter2++) {
     hrGlass += '* '
   }
   console.log(hrGlass)
